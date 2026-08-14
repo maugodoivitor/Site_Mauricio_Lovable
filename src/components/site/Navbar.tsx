@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
-import logoAsset from "@/assets/logo-mauricio-godoi.png.asset.json";
+
 
 const links = [
   { to: "/", label: "Início" },
@@ -26,7 +26,7 @@ export function Navbar() {
           aria-label="Maurício Godoi — página inicial"
         >
           <img
-            src={logoAsset.url}
+            src="/logo-mauricio-godoi.png"
             alt="Logomarca Maurício Godoi"
             className="h-7 w-auto sm:h-8 lg:h-9"
           />
