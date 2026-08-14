@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/matilha",
-      "destination": "https://wp.mauriciogodoi.com.br/matilha"
-    },
-    {
-      "source": "/matilha/:path*",
-      "destination": "https://wp.mauriciogodoi.com.br/matilha/:path*"
+      "source": "/:path*",
+      "destination": "https://wp.mauriciogodoi.com.br/:path*"
     }
   ]
 }
