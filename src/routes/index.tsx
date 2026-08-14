@@ -3,7 +3,7 @@ import { LineChart, Landmark, GraduationCap } from "lucide-react";
 import { CTAButton } from "../components/site/CTAButton";
 import { FeatureCard } from "../components/site/FeatureCard";
 import { SectionHeading } from "../components/site/SectionHeading";
-import portrait from "../assets/mauricio-godoi.jpg.asset.json";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -45,7 +45,7 @@ function HomePage() {
             <div className="absolute -inset-3 hidden rounded-[2rem] border border-white/15 lg:block" />
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-white/15 bg-gradient-to-br from-white/10 to-white/[0.02]">
               <img
-                src={portrait.url}
+                src="/mauricio-godoi.jpg"
                 alt="Maurício Godoi, economista, conselheiro e estrategista empresarial"
                 className="h-full w-full object-cover object-top"
                 loading="eager"
