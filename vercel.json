@@ -1,20 +1,36 @@
 {
   "rewrites": [
     {
+      "source": "/matilha",
+      "destination": "http://wp.mauriciogodoi.com.br/matilha"
+    },
+    {
       "source": "/matilha/:path*",
-      "destination": "https://wp.mauriciogodoi.com.br/matilha/:path*"
+      "destination": "http://wp.mauriciogodoi.com.br/matilha/:path*"
+    },
+    {
+      "source": "/cenarios",
+      "destination": "http://wp.mauriciogodoi.com.br/cenarios"
     },
     {
       "source": "/cenarios/:path*",
-      "destination": "https://wp.mauriciogodoi.com.br/cenarios/:path*"
+      "destination": "http://wp.mauriciogodoi.com.br/cenarios/:path*"
+    },
+    {
+      "source": "/simulador",
+      "destination": "http://wp.mauriciogodoi.com.br/simulador"
     },
     {
       "source": "/simulador/:path*",
-      "destination": "https://wp.mauriciogodoi.com.br/simulador/:path*"
+      "destination": "http://wp.mauriciogodoi.com.br/simulador/:path*"
+    },
+    {
+      "source": "/diagnostico",
+      "destination": "http://wp.mauriciogodoi.com.br/diagnostico"
     },
     {
       "source": "/diagnostico/:path*",
-      "destination": "https://wp.mauriciogodoi.com.br/diagnostico/:path*"
+      "destination": "http://wp.mauriciogodoi.com.br/diagnostico/:path*"
     }
   ]
 }
